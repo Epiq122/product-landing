@@ -5,7 +5,11 @@
 	<div class="chapter-container">
 		<ul>
 			<li>
-				<button class="chpater-title" aria-controls="chapter-info-1" aria-expanded="true">
+				<button
+					class="chapter-title selected-chapter-title"
+					aria-controls="chapter-info-1"
+					aria-expanded="true"
+				>
 					<h3>Chapter 1: Navigating the Spanish bureaucracy</h3>
 				</button>
 			</li>
@@ -32,3 +36,101 @@
 		</div>
 	</div>
 </section>
+
+<style>
+	.chapter-preview {
+		padding: 60px 5%;
+		max-width: 1150px;
+		margin: 0 auto;
+	}
+
+	.chapter-container {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.chapter-container ul {
+		width: 100%;
+		padding: 0;
+		list-style-type: none;
+	}
+
+	.chapter-info {
+		width: 100%;
+		margin-top: 20px;
+	}
+
+	.chapter-title {
+		border-bottom: 1px solid grey;
+		width: 100%;
+		display: block;
+		padding: 12px;
+		text-align: left;
+		transition: all 0.3s ease;
+	}
+
+	.chapter-title h3 {
+		font-size: 1rem;
+		margin: 0;
+		white-space: nowrap;
+		overflow: hidden;
+		text-overflow: ellipsis;
+	}
+
+	.selected-chapter-title {
+		background-color: black;
+		border: none;
+		color: white;
+		box-shadow:
+			0 4px 8px 0 rgba(0, 0, 0, 0.2),
+			0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	}
+
+	.chapter-strapline {
+		font-size: 1rem;
+	}
+
+	@media (min-width: 768px) {
+		.chapter-preview {
+			padding: 80px 5%;
+		}
+
+		.chapter-container {
+			flex-direction: row;
+			justify-content: space-between;
+		}
+
+		.chapter-container ul {
+			width: 40%;
+		}
+
+		.chapter-info {
+			width: 55%;
+			margin-top: 0;
+		}
+
+		.chapter-title h3 {
+			font-size: 1.1rem;
+		}
+
+		.chapter-strapline {
+			font-size: 1.1rem;
+		}
+	}
+
+	@media (min-width: 1024px) {
+		.chapter-preview {
+			padding: 80px 0;
+			margin-left: 12vw;
+			margin-right: 20vw;
+		}
+
+		.chapter-title h3 {
+			font-size: 1.2rem;
+		}
+
+		.chapter-strapline {
+			font-size: 1.2rem;
+		}
+	}
+</style>
