@@ -1,3 +1,6 @@
-<script></script>
+<script>
+	// import HeroSection from '../lib/components/HeroSection.svelte';
+	import { HeroSection } from '$components';
+</script>
 
-<h1>Landing Page</h1>
+<HeroSection />
