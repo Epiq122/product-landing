@@ -1,0 +1,133 @@
+/* CSS Reset */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html,
+body {
+	height: 100%;
+	font-family: Arial, sans-serif;
+}
+
+body {
+	line-height: 1.6;
+}
+
+ul,
+ol {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+button {
+	background: none;
+	border: none;
+	cursor: pointer;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Typography */
+
+h1 {
+	font-size: 100px;
+	font-family: 'Anton', sans-serif;
+	line-height: 1.1;
+	font-weight: bold;
+}
+
+h2 {
+	font-size: 60px;
+	font-family: 'Anton', sans-serif;
+	line-height: 1.2;
+	font-weight: bold;
+}
+
+h3 {
+	font-size: 22px;
+	font-family: 'Anton', sans-serif;
+	line-height: 1.3;
+	font-weight: normal;
+}
+
+h4 {
+	font-size: 20px;
+	font-family: 'Anton', sans-serif;
+	line-height: 1.3;
+	font-weight: normal;
+}
+p,
+li {
+	font-size: 20px;
+	line-height: 1.4;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+	margin: 0;
+}
+
+/* Utility Classes */
+
+.m-xs {
+	margin-top: 8px;
+}
+.m-s {
+	margin-top: 16px;
+}
+
+.m-m {
+	margin-top: 32px;
+}
+
+.m-l {
+	margin-top: 64px;
+}
+
+.bold {
+	font-weight: 800;
+}
+.semi-bold {
+	font-weight: 500;
+}
+
+.italic {
+	font-style: italic;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.purple {
+	color: #3233a6;
+}
+
+.white {
+	color: #fff;
+}
+.light-grey {
+	color: #aaaaaa;
+}
