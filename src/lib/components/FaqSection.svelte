@@ -3,7 +3,7 @@
 	import twitterIcon from '$assets/icons/twitter.webp';
 </script>
 
-<section class="faq-section">
+<section class="landing-page-section">
 	<h2 class="mb-l">Frequently Asked Questions</h2>
 	<div class="faq-container">
 		<FaqItem />
@@ -16,3 +16,23 @@
 		</a>
 	</div>
 </section>
+
+<style>
+	.additional-info {
+		display: flex;
+		flex-direction: column;
+		color: grey;
+		align-items: center;
+		margin-top: 20px;
+	}
+
+	.twitter-icon {
+		width: 20px;
+		margin-left: 5px;
+	}
+
+	a {
+		text-decoration: underline;
+		color: grey;
+	}
+</style>

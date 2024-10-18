@@ -47,7 +47,7 @@
 	};
 </script>
 
-<section class="chapter-preview">
+<section class="landing-page-section">
 	<h2 class="mb-l">What you're getting</h2>
 	<div class="chapter-container">
 		<ul>
@@ -77,12 +77,6 @@
 </section>
 
 <style>
-	.chapter-preview {
-		padding: 60px 5%;
-		max-width: 1150px;
-		margin: 0 auto;
-	}
-
 	.chapter-container {
 		display: flex;
 		flex-direction: column;
@@ -130,10 +124,6 @@
 	}
 
 	@media (min-width: 768px) {
-		.chapter-preview {
-			padding: 80px 5%;
-		}
-
 		.chapter-container {
 			flex-direction: row;
 			justify-content: space-between;
@@ -158,12 +148,6 @@
 	}
 
 	@media (min-width: 1024px) {
-		.chapter-preview {
-			padding: 80px 0;
-			margin-left: 12vw;
-			margin-right: 20vw;
-		}
-
 		.chapter-title h3 {
 			font-size: 1.2rem;
 		}

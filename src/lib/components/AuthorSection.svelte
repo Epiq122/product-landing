@@ -2,7 +2,7 @@
 	import profilePic from '$assets/profile.jpeg';
 </script>
 
-<section class="author-section">
+<section class="landing-page-section">
 	<h2 class="mb-l">About the author</h2>
 	<div class="author-container">
 		<div class="author-text">
@@ -24,12 +24,6 @@
 </section>
 
 <style>
-	.author-section {
-		padding: 40px 5%;
-		max-width: 1150px;
-		margin: 0 auto;
-	}
-
 	.author-container {
 		display: flex;
 		flex-direction: column-reverse;
@@ -51,9 +45,9 @@
 	}
 
 	@media (min-width: 768px) {
-		.author-section {
+		/* .landing-page-section {
 			padding: 60px 5%;
-		}
+		} */
 
 		.author-container {
 			flex-direction: row;
@@ -73,11 +67,6 @@
 	}
 
 	@media (min-width: 1024px) {
-		.author-section {
-			padding: 80px 0;
-			margin-left: 12vw;
-			margin-right: 20vw;
-		}
 	}
 
 	h2 {
