@@ -4,7 +4,7 @@
 
 	let questionExpanded = $state(-1);
 
-	const onClick = (index) => {
+	const onclick = (index) => {
 		if (questionExpanded === index) {
 			questionExpanded = -1;
 			return;
@@ -45,7 +45,7 @@
 	<h2 class="mb-l">Frequently Asked Questions</h2>
 	<div class="faq-container">
 		{#each faqs as faq, index}
-			<FaqItem {faq} isExpanded={index === questionExpanded} onclick={() => onClick(index)} />
+			<FaqItem {faq} isExpanded={index === questionExpanded} onclick={() => onclick(index)} />
 		{/each}
 	</div>
 	<div class="additional-info">
